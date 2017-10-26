@@ -1,0 +1,40 @@
+﻿<Properties StartupConfiguration="{18E96A13-D497-4684-8A0B-DB204F7A65A6}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ReadDataFromJson/ReadDataViewModel.cs">
+    <Files>
+      <File FileName="ReadDataFromJson/ReadDataViewModel.cs" Line="138" Column="13" />
+      <File FileName="../../newlogin-master/ReadDataFromJsonAndListViewSorting-4/ReadDataFromJson/LoginPage.xaml" Line="3" Column="18" />
+      <File FileName="ReadDataFromJson/LoginPage.xaml" Line="43" Column="1" />
+      <File FileName="ReadDataFromJson/LoginPage.xaml.cs" Line="16" Column="1" />
+      <File FileName="../../newlogin-master/ReadDataFromJsonAndListViewSorting-4/ReadDataFromJson/LoginCustomEntry.cs" Line="6" Column="42" />
+      <File FileName="../../newlogin-master/ReadDataFromJsonAndListViewSorting-4/iOS/LoginCustomEntry_iOS.cs" Line="20" Column="29" />
+      <File FileName="ReadDataFromJson/LoginCustomEntry.cs" Line="3" Column="20" />
+      <File FileName="iOS/LoginCustomEntry_iOS.cs" Line="14" Column="38" />
+      <File FileName="ReadDataFromJson/App.xaml.cs" Line="11" Column="60" />
+      <File FileName="ReadDataFromJson/LoginPageViewModel.cs" Line="20" Column="1" />
+      <File FileName="ReadDataFromJson/SecondPageViewModel.cs" Line="1" Column="1" />
+      <File FileName="ReadDataFromJson/ReadDataFromJsonPage.xaml" Line="40" Column="15" />
+      <File FileName="../../../Desktop/projects/SilencerShopMobile/SilencerShop/ViewModels/SignInViewModel.cs" Line="45" Column="1" />
+      <File FileName="ReadDataFromJson/ReadDataFromJsonPage.xaml.cs" Line="12" Column="3" />
+      <File FileName="ReadDataFromJson/CreateJssePage.xaml.cs" Line="13" Column="79" />
+      <File FileName="ReadDataFromJson/MyJsseResponse.cs" Line="1" Column="1" />
+      <File FileName="ReadDataFromJson/ViewModelBase.cs" Line="7" Column="15" />
+      <File FileName="ReadDataFromJson/SecondPage.xaml" Line="11" Column="1" />
+      <File FileName="ReadDataFromJson/ResponceModel.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/ravikiranreddy/Downloads/data-passing-master/ReadDataFromJsonAndListViewSorting-5-2/ReadDataFromJson/ReadDataViewModel.cs" relfile="ReadDataFromJson/ReadDataViewModel.cs" line="69" column="1" />
+      <Breakpoint file="/Users/ravikiranreddy/Downloads/data-passing-master/ReadDataFromJsonAndListViewSorting-5-2/ReadDataFromJson/ReadDataViewModel.cs" relfile="ReadDataFromJson/ReadDataViewModel.cs" line="24" column="1" />
+      <Breakpoint file="/Users/ravikiranreddy/Downloads/data-passing-master/ReadDataFromJsonAndListViewSorting-5-2/ReadDataFromJson/ReadDataViewModel.cs" relfile="ReadDataFromJson/ReadDataViewModel.cs" line="100" column="1" />
+      <Breakpoint file="/Users/ravikiranreddy/Downloads/data-passing-master/ReadDataFromJsonAndListViewSorting-5-2/ReadDataFromJson/ReadDataViewModel.cs" relfile="ReadDataFromJson/ReadDataViewModel.cs" line="94" column="28" />
+      <Breakpoint file="/Users/ravikiranreddy/Downloads/data-passing-master/ReadDataFromJsonAndListViewSorting-5-2/ReadDataFromJson/LoginPage.xaml.cs" relfile="ReadDataFromJson/LoginPage.xaml.cs" line="16" column="1" />
+      <Breakpoint file="/Users/ravikiranreddy/Downloads/data-passing-master/ReadDataFromJsonAndListViewSorting-5-2/ReadDataFromJson/ReadDataViewModel.cs" relfile="ReadDataFromJson/ReadDataViewModel.cs" line="123" column="1" />
+      <Breakpoint file="/Users/ravikiranreddy/Downloads/data-passing-master/ReadDataFromJsonAndListViewSorting-5-2/ReadDataFromJson/LoginPageViewModel.cs" relfile="ReadDataFromJson/LoginPageViewModel.cs" line="20" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.ReadDataFromJson.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.516B307A-09C5-4B58-8608-A7464319830A" />
+  <MultiItemStartupConfigurations />
+</Properties>

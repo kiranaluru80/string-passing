@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:ReadDataFromJson;assembly=ReadDataFromJson" x:Class="ReadDataFromJson.LoginPage" BackgroundImage="LoginBg">
+	<RelativeLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+        <StackLayout RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width,Factor=1.0}" RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height,Factor=1.0}" VerticalOptions="FillAndExpand" Spacing="0" Padding="0,20,0,0">
+            <ScrollView>
+            <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Spacing="0" Padding="0,20,0,10">
+                <StackLayout HorizontalOptions = "FillAndExpand" VerticalOptions ="Start" Margin ="0,59,0,0">
+                 <Image Source = "JSSELogo" HorizontalOptions ="CenterAndExpand" VerticalOptions ="StartAndExpand"/>
+                </StackLayout>
+                <Frame Margin = "18,20,18,0" Padding = "0" BackgroundColor = "White"  OutlineColor = "Transparent" HasShadow = "false">
+                    <StackLayout Spacing = "5" Margin = "20" BackgroundColor = "White" Orientation = "Vertical" HorizontalOptions = "FillAndExpand" VerticalOptions = "Start">
+                      <StackLayout Spacing = "5" Margin = "0,30,0,0" HorizontalOptions = "FillAndExpand">
+                       <Label Text = "! email address is incorrect" FontSize = "12" TextColor = "Red" IsVisible = "false"/>
+                     <local:LoginCustomEntry Text="{Binding UserName}" FontAttributes = "Italic"  Placeholder = "Login ID (Last name and intial)" HorizontalOptions = "FillAndExpand" VerticalOptions = "StartAndExpand"></local:LoginCustomEntry>
+                      <BoxView HeightRequest = "2" HorizontalOptions = "FillAndExpand" BackgroundColor = "#CCCCCC"/>
+                     </StackLayout>
+
+                       <StackLayout Margin ="0,30,0,0" Spacing = "5" HorizontalOptions = "FillAndExpand">
+                       <Label Text = "! password is not recongized" FontSize = "12" TextColor = "Red" IsVisible = "false"/>
+                     <local:LoginCustomEntry Text="{Binding Password}" FontAttributes = "Italic" IsPassword = "true" Placeholder ="password" HorizontalOptions = "FillAndExpand" VerticalOptions = "StartAndExpand"></local:LoginCustomEntry>
+                      <BoxView HeightRequest = "2" HorizontalOptions = "FillAndExpand" BackgroundColor = "#CCCCCC"/>
+                     </StackLayout>
+
+                     <StackLayout Orientation = "Horizontal" Spacing = "8" HorizontalOptions = "EndAndExpand">
+                         <Label Text = "remember me" FontSize = "12" FontAttributes = "Bold" TextColor = "#9B9B9B" VerticalOptions = "Center"></Label>
+                         <Switch VerticalOptions = "Center" HorizontalOptions = "End"></Switch>
+                     </StackLayout>
+
+                     <Button Margin = "0,10,0,10" Text = "Sign in" Command="{Binding LoginCommand}" FontAttributes = "Bold" BackgroundColor = "#3B9BD7" TextColor = "#FFFFFF" FontSize = "20"></Button>
+                        
+                    </StackLayout>
+                </Frame>
+
+                 <StackLayout HorizontalOptions = "CenterAndExpand" VerticalOptions ="Start" Margin ="0,20,0,0">
+                 <Image Source = "EHSLogo" HorizontalOptions ="CenterAndExpand" VerticalOptions ="StartAndExpand"/>
+                </StackLayout>
+                    
+            </StackLayout>
+                </ScrollView>
+        </StackLayout>
+    </RelativeLayout>
+</ContentPage>
